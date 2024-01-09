@@ -202,3 +202,30 @@ font-weight: 900;
 font-size: 20px;
 font-weight: 400;
 }
+ .button{
+   text-align: center;
+}
+.forth-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.letter{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 22px;
+}
+.button{
+    width: 648px;
+height: 72px;
+flex-shrink: 0;
+}
+.subs-des{ 
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+}

@@ -79,7 +79,7 @@ main .discount {
 
 main .offer {
     width: 1600px;
-    height: 7335px;
+    height: 785px;
     /* margin: auto; */
     margin-left: 500px;
     margin-bottom: 24px;
@@ -101,6 +101,7 @@ main .party {
     color: white;
 }
 
+
 .image-main-two {
     /* background-color:; */
     /* background-blend-mode: multiply;
@@ -109,36 +110,95 @@ mix-blend-mode: multiply; */
     height: 464.662px;
     background-color: #690B02, #8F4941, #B18079, #CDADA8, #E3D1CD, #F2EAE7, #FCFAF6, #FFFFFC;
      mix-blend-mode: #690B02, #8F4941, #B18079, #CDADA8, #E3D1CD, #F2EAE7, #FCFAF6, #FFFFFC;  */
-} 
+}
+
 .description {
-        color: white;
-        font-size: 18px;
-        font-weight: 400;
-        /* margin-top: 5px; */
-        /* padding: 326px 497px 214px 126px; */
-    }
+    color: white;
+    font-size: 18px;
+    /* font-weight: 400; */
+    /* margin-top: 5px; */
+    /* padding: 326px 497px 214px 126px; */
+}
 
 .second-section {
-        background-image: url(images/Vectorrr.png);
-        background-repeat: no-repeat;
-        width: 1320px;
-        height: 600px;
-        fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-        /* margin: auto; */
-        margin: auto;
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 1300px;
+    height: 600px;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    /* margin: auto; */
+    margin: auto;
 
-    }
+}
 
-    .welcoming {
-        color: #FFF;
-        font-family: Merriweather;
-        font-size: 64px;
-        font-weight: 900;
-        /* padding-top: px; */
-    }
+.welcoming {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    /* font-weight: 900; */
+    /* padding-top: px; */
+}
 
-    .join {
-        font-size: 20px;
-        font-weight: 700;
+.join {
+    font-size: 20px;
+    font-weight: 700;
 
-    }
+}
+
+.third-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 700px;
+    
+}
+
+.shopping {
+    text-align: justify;
+    
+}
+
+.produts {
+    display: block;
+}
+.all-products .Rectangle{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.first {
+    display: flex;
+    border-radius: 16px;
+    
+}
+
+.second {
+    display: flex;
+    border-radius: 16px;
+}
+
+.Rectangle {
+    width: 424px;
+    height: 450px;
+    
+
+}
+
+ .gifts {
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500; 
+}
+.portfolio{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+}
+.shop-description{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+}

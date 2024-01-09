@@ -34,9 +34,14 @@ header {
     margin: auto;
 
 }
-main .first-section{
+
+main .first-section {
     background-color: white;
+    /* margin: auto; */
+
+    /* margin-bottom: 0; */
 }
+
 main .sail {
     color: #F00;
     font-size: 88px;
@@ -47,41 +52,93 @@ main .sail {
 }
 
 main .holiday-fun {
-    color: #F00; 
+    color: #F00;
     font-size: 24px;
     font-weight: 500;
-    margin-top:48px;
+    margin-top: 48px;
     margin-bottom: 0;
 }
 
- main .CATEGORIES {
+main .CATEGORIES {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
     margin-top: 0px;
-
-    
 }
-    
 
-main .discount{
+.image-main {
+    margin-bottom: 0px;
+    /* width: 802.9px;
+    height: 500px; */
+}
+
+
+main .discount {
     text-align: center;
-    
-    
-
 }
 
 main .offer {
     width: 1600px;
     height: 7335px;
-    margin: auto;
+    /* margin: auto; */
+    margin-left: 500px;
+    margin-bottom: 24px;
 
 }
-main .party{
-   display: flex;
+
+main .party {
+    display: flex;
+    align-items: center;
+    gap: 470px;
+    margin-top: 126px;
+    margin-right: 540px;
+    margin-bottom: 126px;
+    margin-left: 126px;
 }
-main.second-section{
-    width: 1320px;
-    height: 600px;
-    padding: 0%;
+
+.welcome {
+    display: block;
+    color: white;
 }
+
+.image-main-two {
+    /* background-color:; */
+    /* background-blend-mode: multiply;
+mix-blend-mode: multiply; */
+    /* width: 1600px;
+    height: 464.662px;
+    background-color: #690B02, #8F4941, #B18079, #CDADA8, #E3D1CD, #F2EAE7, #FCFAF6, #FFFFFC;
+     mix-blend-mode: #690B02, #8F4941, #B18079, #CDADA8, #E3D1CD, #F2EAE7, #FCFAF6, #FFFFFC;  */
+} 
+.description {
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        /* margin-top: 5px; */
+        /* padding: 326px 497px 214px 126px; */
+    }
+
+.second-section {
+        background-image: url(images/Vectorrr.png);
+        background-repeat: no-repeat;
+        width: 1320px;
+        height: 600px;
+        fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+        /* margin: auto; */
+        margin: auto;
+
+    }
+
+    .welcoming {
+        color: #FFF;
+        font-family: Merriweather;
+        font-size: 64px;
+        font-weight: 900;
+        /* padding-top: px; */
+    }
+
+    .join {
+        font-size: 20px;
+        font-weight: 700;
+
+    }
